@@ -20,3 +20,74 @@ a=[2,0,2,2]
 b=[25,10,2023]
 a.extend(b)
 print(a)
+
+
+#tuple
+my_tuple=("python","with","data","science",10,2022)
+print(my_tuple)
+print(len(my_tuple))
+#tuple
+my_tuple=("python","with","data","science",10,2022)
+print(my_tuple)
+print(len(my_tuple))
+
+#set
+myset={"assignment",1,"python"}
+print(myset)
+set1={"diarymilk","kitkat"}
+set2={22,14}
+set3={126,0.2,"nestle"}
+set4=set1|(set2)|set3
+print(set4)
+# Intersection
+set1={"j","k"}
+set2={4,3,"j"}
+print(set1.intersection(set2))
+set1={"dairymilk","kitkat"}
+set2={22,14,"dairymilk"}
+set3={22,0.2,"nestle","dairymilk"}
+set4=set1&set2&set3
+print(set4)
+del set1
+print(set2)
+
+#Function
+def add():
+  for i in range(5):
+   print("Happy diwali")
+add() 
+def add1(num1,num2):
+  print("The Addition for two values are",(num1+num2))
+add1(32,45) 
+def div(num1,num2):
+  print("The division of two values is",num1/num2)
+div(44,2)
+def add():
+    a = input("Enter a number")
+    b = input("Enter another number:")
+    print("sum of the above numbers is:",(a+b))
+
+add()
+def add1():
+    a = int(input("Enter a number"))
+    b = int(input("Enter another number:"))
+    print("sum of the above numbers is:",(a+b))
+
+add1()
+
+#dictionary
+my_dic={
+    "course":"Python with data science",
+    "batch":"october",
+    "Year ":2022,
+}
+print(my_dic)
+# update
+my_dic["Course"]=["Teach","Nook"]
+print(my_dic)
+
+my_dic["Course Type"]="Mentor lead"
+print(my_dic)
+
+del my_dic["batch"]
+print(my_dic)
