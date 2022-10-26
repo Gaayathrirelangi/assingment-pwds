@@ -1,0 +1,22 @@
+#list
+my_list=["Python", "with", "data" ,"science"]
+print(my_list[0])
+print(my_list[1])
+print(my_list[2])
+print(my_list[3])
+#negative indexing
+print(my_list[-3])
+print(my_list[-2])
+print(my_list[-1])
+print(my_list[-4])
+my_list[1]="teach"
+print(my_list)
+my_list.append("nook")
+print(my_list)
+my_list.insert(10,2022)
+print(my_list)
+#extend
+a=[2,0,2,2]
+b=[25,10,2023]
+a.extend(b)
+print(a)
